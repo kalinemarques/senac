@@ -41,10 +41,9 @@ def cadastra_aluno ():
         dados.append(nota)
 
     frequencia = int(input('Insira a frequência (0-100): '))
-    dados.append(frequencia)
-
     while frequencia <0 or frequencia >100:
             frequencia = float(input('FREQUÊNCIA INVÁLIDA! Insira uma frequência entre 0 e 100: '))
+    dados.append(frequencia)
     
     media = calcular_media(dados[0], dados[1], dados[2])
     dados.append(media)
