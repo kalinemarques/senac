@@ -1,19 +1,3 @@
-"""
-Atividade: Sistema de Gerenciamento de Alunos
-Objetivo: Criar um sistema gerenciamento de alunos
-Requisitos: 
-1.	Criar coleção alunos para armazenar informações sobre os alunos. 
-Cada chave deve ser o nome do aluno o valor associado deve ser uma lista que contenha as seguintes informações: nota1, nota2, nota3 e frequência (um valor entre 0 e 100).
-2.	Crie uma função chamada calcular_media que recebe as notas de um aluno como argumento e retorna a média das notas.
-3.	Crie uma função chamada verificar_aprovacao que recebe a média como argumento e retorna "Aprovado" se a média for maior ou igual a 60, caso contrário, retorne "Reprovado".
-4.	Crie uma estrutura que permita adicionar alunos até que o usuário escolha parar.
-5.	Percorra a coleção alunos e, para cada aluno, chame as funções calcular_media e verificar_aprovacao para determinar se o aluno está aprovado ou reprovado, exibindo o resultado na tela.
-
-Requisito extra (valendo 1 ponto no nosso jogo):
-1.	Associe o aluno a outra lista, chamada frequencia, e faça ela ser levada em consideração nos requisitos 2 e 3.
-2.	Faça a impressão dessa lista frequencia no requisito 5.
-"""
-
 #função para o cálculo da média:
 def calcular_media (nota1, nota2, nota3):
     media = (nota1+nota2+nota3)/3
