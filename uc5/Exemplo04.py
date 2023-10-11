@@ -9,7 +9,7 @@ c = float(input("Insira o valor de c: "))
 delta = b**2 - (4*a*c)
 
 if delta < 0: 
-    print(f'A equação {a}x² + {b}x + {c} = 0 não possui raízes.')
+    print(f'A equação {a}x² + {b}x + {c} = 0 não possui raízes reais.')
     del(a, b, c, delta)
 
 else:
@@ -17,9 +17,9 @@ else:
     x2 = (-b - delta**0.5)/(2*a)
 
     if delta > 0:
-        print(f'A equação {a}x² + {b}x + {c} = 0 possui 2 raízes: {x1} e {x2}')
+        print(f'A equação {a}x² + {b}x + {c} = 0 possui 2 raízes reais: {x1} e {x2}')
 
     elif delta == 0:
-        print(f'A equação {a}x² + {b}x + {c} = 0 possui apenas uma raíz: {x1}')
+        print(f'A equação {a}x² + {b}x + {c} = 0 possui apenas uma raíz real: {x1}')
 
     del(a, b, c, delta, x1, x2)
