@@ -39,7 +39,7 @@ def oQueEstaAcontecendo(dispositivos):
         print(f'O dispositivo {dispositivo.produto()} está {dispositivo.acao()}.')
 
 
-dispositivos = [Celular(), FoneDeOuvido(), Computador(), Relogio()]
+dispositivos = [Celular(), FoneDeOuvido(), Computador(), Relogio(), Impressora()]
 oQueEstaAcontecendo(dispositivos)
 
         
